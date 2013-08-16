@@ -22,8 +22,8 @@ On Windows with Pyzo (assuming default installation):
 
 This is a fall-back method.
 
-[Chapter 1 - Getting started](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/blob/master/Chapter%201%20-%20Building%20Blocks.ipynb)
+[Chapter 1 - Getting started](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%201%20-%20Building%20Blocks.ipynb)
 
-[Chapter 2 - The basics](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/blob/master/Chapter%202%20-%20Control%20Structures.ipynb)
+[Chapter 2 - The basics](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%202%20-%20Control%20Structures.ipynb)
 
-[Chapter 3 - Text Preprocessing](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/blob/master/Chapter%203%20-%20Functions%20and%20Files.ipynb)
+[Chapter 3 - Text Preprocessing](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%203%20-%20Functions%20and%20Files.ipynb)
