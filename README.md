@@ -1,6 +1,6 @@
 # Python Programming for the Humanities
 
-For installation instructions for various platforms, see the file installation-instructions.txt .
+Download this repository by clicking "Download ZIP" on this page. For installation instructions for various platforms, see the file installation-instructions.txt in your folder.
 
 ## Opening the Interactive Notebooks
 
