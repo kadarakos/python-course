@@ -28,4 +28,4 @@ This is a fall-back method.
 
 [Chapter 3 - Functions and Files](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%203%20-%20Functions%20and%20Files.ipynb)
 
-[Chapter 4 - The Pattern Package.ipynb](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%4%-%The%Pattern%Package.ipynb)
+[Chapter 4 - The Pattern Package](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%4%-%The%Pattern%Package.ipynb)
