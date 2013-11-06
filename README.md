@@ -22,10 +22,14 @@ On Windows with Pyzo (assuming default installation):
 
 This is a fall-back method.
 
-[Chapter 1 - Building Blocks](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%201%20-%20Building%20Blocks.ipynb)
+[Chapter 1 - Variables](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%201%20-%20Variables.ipynb)
 
-[Chapter 2 - Control Structures](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%202%20-%20Control%20Structures.ipynb)
+[Chapter 2 - Collections](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%202%20-%20Collections.ipynb)
 
-[Chapter 3 - Functions and Files](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%203%20-%20Functions%20and%20Files.ipynb)
+[Chapter 3 - Conditions](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%203%20-%20Conditions.ipynb)
 
-[Chapter 4 - The Pattern Package](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%204%20-%20The%20Pattern%20Package.ipynb)
+[Chapter 4 - Loops](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%204%20-%20Loops.ipynb)
+
+[Chapter 5 - Functions and Files](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%205%20-%20Functions%20and%20Files.ipynb)
+
+[Chapter 6 - The Pattern Package](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%206%20-%20The%20Pattern%20Package.ipynb)
