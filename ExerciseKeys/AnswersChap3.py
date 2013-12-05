@@ -37,6 +37,7 @@ print("======================================")
 # no 'e' and compute the percentage of the words in the sentence
 # that do contain an 'e'.
 
+
 sentence = "In 1939 Ernest Vincent Wright published a 50,000 word novel called Gadsby that does not contain the letter 'e'"
 if "e" in sentence:
 	print("There is at least one letter e in the sentence.")
@@ -58,14 +59,16 @@ print("======================================")
 # elements from the original and puts these in a new variable.
 # Print the unique elements. (Hint: they don't have to be in the same order.)
 
-orig_list = ["one", "one", "two", "two", "three"]
+
+
 uniques = set(orig_list)
 print("Unique elements: "+str(uniques))
 
 print("======================================")
 
-# Ex. 5: Write Python code that defines two numbers prints the largest of
+# Ex. 5: Write Python code that defines two numbers and prints the largest of
 # them. Use an if-then-else tree.
+
 
 nr1 = 3
 nr2 = 4

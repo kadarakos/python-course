@@ -25,6 +25,7 @@ print("======================================")
 # Next, join the items in this list together with a comma and print the spelled out version!
 
 lookup = {'a':'alfa', 'b':'bravo', 'c':'charlie', 'd':'delta', 'e':'echo', 'f':'foxtrot', 'g':'golf', 'h':'hotel', 'i':'india', 'j':'juliett', 'n':'november', 'o':'oscar', 'p':'papa', 'q':'quebec', 'r':'romeo', 's':'sierra', 't':'tango', 'u':'uniform', 'v':'victor', 'w':'whiskey', 'x':'x-ray', 'y':'yankee', 'z':'zulu'}
+
 lookup["k"] = "kilo"
 lookup["l"] = "lima"
 lookup["m"] = "mike"
@@ -48,6 +49,9 @@ print("======================================")
 # -  Ex. 3: Collect the code terms in the lookup dict (`alpha`, `bravo`, ...) from the previous exercise into a list called `code_words`.
 # Is this list alphabetically sorted? No? Then make sure that this list is sorted alphabetically. Now remove the items `victor`, `india` and `papa`.
 # Append the words `pigeon` and `potato` at the end of this list. Combine this new list of items into a single string, using a semicolon as a delimiter and print this string. 
+
+
+
 
 code_words = lookup.values()
 print(code_words)
