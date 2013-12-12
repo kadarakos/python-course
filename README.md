@@ -32,6 +32,6 @@ This is a fall-back method.
 
 [Chapter 5 - Functions and Files](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%205%20-%20Functions%20and%20Files.ipynb)
 
-[Chapter 6 - Regular Expressions](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%206%20-%20Regular%20Expressions.ipynb)
+[Chapter 6 - Regular Expressions](http://nbviewer.ipython.org/github/mikekestemont/python-course/blob/master/Chapter%206%20-%20Regular%20Expressions.ipynb)
 
 [Chapter 7 - The Pattern Package](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%207%20-%20The%20Pattern%20Package.ipynb)
