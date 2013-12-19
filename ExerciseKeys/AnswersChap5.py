@@ -4,7 +4,7 @@
 # to spell the other. Write a function called is_anagram that takes two
 # strings and returns True if they are anagrams.
 
-"""
+
 def is_anagram(w1, w2):
 	if sorted(w1) == sorted(w2):
 		return True
@@ -64,6 +64,9 @@ for char in text_with_P:
 	if char not in string.punctuation:
 		text+=char.lower()
 my_novel = string.replace(text, "emma", "mike")
+f = open("test.txt", "w")
+f.write(my_novel)
+f.close()
 words = my_novel.split()
 print words[:50]
 freqs = {}
@@ -85,7 +88,6 @@ print("======================================")
 # list of numbers. For example, sum([1, 2, 3, 4]) should return 10,
 # and multiply([1, 2, 3, 4]) should return 24.
 
-
 def sum(nums):
 	total = 0
 	for n in nums:
@@ -98,8 +100,9 @@ def multiply(nums):
 		total*=n
 	return total
 
-print(sum([1, 2, 3, 4]))
-print(multiply([1, 2, 3, 4]))
+l = [1,2,3,4]
+print(sum(l))
+print(multiply(l))
 
 print("======================================")
 
@@ -162,13 +165,11 @@ print("==========================")
 
 def convert2NumberedFormat(f):
 	fOldF = open(f, "rt")
-	lines = []
-	for l in fOldF:
-		lines.append(l)
+	lines = fOldF.readlines()
 	fOldF.close()
 	fNewF = open("numb_"+f, "wt")
-	for i in range(len(lines)):
-		fNewF.write(str(i+1)+" : "+lines[i])
+	for line, index in enumerate(lines):
+		fNewF.write((index+1)+line)
 	fNewF.close()
 	return
 
@@ -179,7 +180,7 @@ print("==========================")
 
 # Ex. 9: Write a script that rolls a dice everytime 
 # you run it by generating a random integer between 1 and 6!
-# You can import functionality for doing this via Math.randint().
+# You can import functionality for doing this via random.randint().
 # (Google this!)
 
 from random import randint
@@ -198,7 +199,6 @@ print("==========================")
 # into sentences. The standard set of heuristics for sentence splitting
 #includes (but isn't limited to) the following rules:
 # Sentence boundaries occur at one of "." (periods), "?" or "!", except that: [...]
-"""
 
 fixed_expressions = ["Mr.", "Mrs.", "i.e.", "Jr."]
 sentence_boundaries = [".", "!", "?"]
@@ -230,7 +230,8 @@ def sentence_splitter(oldFile, newFile):
 		i+=1
 		# check for leftover at the end:
 		if i == len(text)-1:
-			sentence+=text[i]
+			char=text[i]
+			sentence+=char
 			if len(sentence.strip()) > 0:
 				sentences.append(sentence.strip())
 	tokenF = open(newFile, 'wt')
@@ -239,4 +240,4 @@ def sentence_splitter(oldFile, newFile):
 	tokenF.close()
 	return sentences
 
-sentence_splitter("../data/austen-emma.txt", "tokenized.txt")
+sentence_splitter(oldFile="../data/austen-emma.txt", newFile="tokenized.txt")

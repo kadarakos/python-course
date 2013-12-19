@@ -1,0 +1,5 @@
+color = red
+number =7
+name= joe
+age = 9
+school = hogwardz
