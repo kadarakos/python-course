@@ -33,12 +33,12 @@ names = comma.split(lines[0].strip())
 for line in lines[1:]:
 	fields = comma.split(line.strip())
 	tmp_dict = {}
-	for index, name in enumerate(names):
-		value = fields[index]
-		tmp_dict[name] = value
+	for name, field in zip(names, fields):
+		tmp_dict[name] = field
 	dict_list.append(tmp_dict)
 f.close()
-print(dict_list)
+
+whitespace = re.compile(r"\s+")
 
 #ex. 4
 def my_funct(fname):
@@ -55,14 +55,18 @@ def my_funct(fname):
 print my_funct("austen-emma-excerpt.txt")
 
 #ex. 5
-time_of_day = re.compile(r"[0-9]+\:[0-9]+ (am)|(pm)")
+time_of_day = re.compile(r"[0-9]+\:[0-9]+ *(am)|(pm)")
 s = "In the morning, the clock sometimes reads 9:14 am, while in the evening it might read 11:20 pm"
 print(len(time_of_day.findall(s)))
+
+
+([a-z|A-Z]|[0-9]|\.|\_)+
+
 
 #ex. 6
 at = re.compile(r"\@")
 dot = re.compile(r"\.")
-unorthodox_punct = re.compile("\;|\,|\?|\=|,:") # etc.
+unorthodox_punct = re.compile("\;|\,|\?|\=|\,|\:") # etc.
 extensions = (".com", ".org", ".be", ".nl")
 def validate_email(address=""):
 	if len(dot.findall(address)) < 1:
