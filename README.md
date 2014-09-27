@@ -2,7 +2,7 @@
 
 For this course, we will make use of IPython notebooks. Follow the instructions below to install all the software required for this course. (Many thanks to Folgert Karsdorp for his kind help in providing the installation instructions and launching scripts!)
 
-## Install Python etc.
+## Installation instructions
 
 First we will install Python, the programming language which we will use throughout this course. We will make use of the free Anaconda distribution, which has all the packages we need built in. Important: we will use Python 3.4 in this course, but first you will have to install Python 2.7, so follow **exactly** the instructions below:
 
