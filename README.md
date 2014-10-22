@@ -47,4 +47,6 @@ After double-clicking this file once, this should open your browser (preferably 
 
 [Chapter 6 - Regular Expressions](http://nbviewer.ipython.org/github/mikekestemont/python-course/blob/master/Chapter%206%20-%20Regular%20Expressions.ipynb)
 
-[Chapter 7 - The Pattern Package](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%207%20-%20The%20Pattern%20Package.ipynb)
+[Chapter 7 - More on Loops](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%207%20-%20More%20on%20Loops.ipynb)
+
+[Chapter 8 - The Pattern Package (advanced)](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%208%20-%20The%20Pattern%20Package.ipynb)
