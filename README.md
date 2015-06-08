@@ -2,6 +2,60 @@
 
 For this course, we will make use of IPython notebooks. Follow the instructions below to install all the software required for this course. (Many thanks to Folgert Karsdorp for his kind help in providing the installation instructions and launching scripts!)
 
+## Instruction for developers
+
+We are going to use the method from the caffe guys, I think
+it's not that overdone: https://github.com/sguada/caffe-public
+The only difference we are going to make is that we are only
+going to have a master branch and no dev.
+
+First get your own copy of the repo. 
+Fork this repository and clone your own fork
+
+```
+git clone https://github.com/yourusername/python-course.git
+```
+
+If you would like to make your edits first make sure that everything is
+up to date, then create a branch where you add some feature
+lets call it "feature".
+
+```
+git checkout master
+git pull upstream master
+git checkout -b feature
+# do your work, make commits
+```
+
+When you are done with your feature prepare your merge by rebasing first.
+
+```
+# make sure master is fresh
+git checkout master
+git pull upstream master
+# rebase your branch on the tip of master
+git checkout master
+git rebase master
+```
+
+Push your branch to pull request it into master 
+
+```
+git push origin feature
+# ...make pull request to dev...
+```
+
+Now make a pull request! Please write informative messages in the
+pull requestion so we know what changes have been made.
+
+Make sure you check out these links for more information:
+
+https://help.github.com/articles/fork-a-repo/
+https://help.github.com/articles/creating-a-pull-request/
+https://help.github.com/articles/checking-out-pull-requests-locally/
+
+
+
 ## Installation instructions
 
 First we will install Python, the programming language which we will use throughout this course. We will make use of the free Anaconda distribution, which has all the packages we need built in. Important: we will use Python 3.4 in this course, but first you will have to install Python 2.7, so follow **exactly** the instructions below:
