@@ -1,8 +1,0 @@
-(dp0
-S'word1'
-p1
-I210
-sS'word2'
-p2
-I50
-s.
