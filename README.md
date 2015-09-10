@@ -70,3 +70,7 @@ https://help.github.com/articles/checking-out-pull-requests-locally/
 [Chapter 7 - More on Loops](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%207%20-%20More%20on%20Loops.ipynb)
 
 [Chapter 8 - The Pattern Package (advanced)](http://nbviewer.ipython.org/urls/raw.github.com/mikekestemont/python-course/master/Chapter%208%20-%20The%20Pattern%20Package.ipynb)
+
+## Assignments
+
+We keep the assignments in a [BitBucket repo](https://bitbucket.org/swubb/python-course-assignments)
